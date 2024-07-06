@@ -8,14 +8,11 @@
 </p>
 
 <p align="center">
-  Расширения для возврата назад в Nautilus по нажатию сочетания клавиш, назначенного через GSettings
+Extensions for returning back to Nautilus by pressing the combination of keys assigned via Gsettings
 </p>
 
 
-> [!NOTE]
-> Идея принадлежит [riclc](https://github.com/riclc), но, увы, автор забросил свой аккаунт.
-
-## Установка из репозитория
+## installation from the repository
 
 [![Packaging status](https://repology.org/badge/vertical-allrepos/nautilus-backspace.svg)](https://repology.org/project/nautilus-backspace/versions)
 
@@ -27,14 +24,14 @@ apt-get install nautilus-backspace
 ```
 
 
-## Сборка из исходного кода
+## clone the Source
 
 ```shell
 git clone https://github.com/alt-gnome-team/nautilus-backspace.git
 cd nautilus-backspace
 ```
 
-### Зависимости
+### Dependencies
 
 #### ALT Sisyphus
 ```shell
@@ -61,28 +58,28 @@ sudo pacman -Sy python-nautilus
 ```
 
 
-### Сборка
+### Assembly
 
-#### Системная установка
+#### System installation
 ```
 sudo make
 sudo make schemas 
 ```
 
-#### Пользовательская установка
+#### User installation
 ```
 make
 make schemas 
 ```
 
 
-## Настройка
+## Setup
 
-### Смена сочетания 
+### Change of combination
 ```shell
 gsettings set io.github.alt-gnome-team.nautilus-backspace back '<Alt>Down'
 ```
-### Возврат к значению по умолчанию
+### Return to the default value
 ```shell
 gsettings reset io.github.alt-gnome-team.nautilus-backspace back
 ```
