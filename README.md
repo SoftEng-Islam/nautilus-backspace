@@ -27,7 +27,7 @@ apt-get install nautilus-backspace
 ## clone the Source
 
 ```shell
-git clone https://github.com/alt-gnome-team/nautilus-backspace.git
+git clone https://github.com/SoftEng-Islam/nautilus-backspace.git
 cd nautilus-backspace
 ```
 
